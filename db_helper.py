@@ -4,7 +4,7 @@ connection = mysql.connector.connect(
     host="localhost",
     user="root",
     password="root",
-    database="pandeyji_eatery"
+    database="food_restaurant"
 )
 
 def insert_order_item(food_item, quantity, order_id):
